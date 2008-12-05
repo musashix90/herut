@@ -19,6 +19,7 @@ session_start();
 
 
 //This should be on top everything...but needs fixing
+//Framework missing
 include("includes/core.php");
 
 
