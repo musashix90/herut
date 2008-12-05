@@ -10,10 +10,10 @@ define(		'SITE_URL', 		'http://localhost/herut');
 define(		'BASE_PATH',		__FILE__); //the path to this file is our Base
 
 //Database configuration
-define(		'DB_HOST',			'****');
-define(		'DB_USER',			'****');
-define(		'DB_PASS',			'****');
-define(		'DB_DB',			'****');
+define(		'DB_HOST',			'db.gamecraftx.com');
+define(		'DB_USER',			'herut');
+define(		'DB_PASS',			'95feeb2afb');
+define(		'DB_DB',			'herut');
 define(		'DB_PREFIX',		'her_');
 
 
@@ -23,7 +23,5 @@ define(		'SESSION_LIFE',		30); //Minutes
 
 //Templates
 define(		'DEF_TEM',			'SimplyClean');
-
-
 
 ?>

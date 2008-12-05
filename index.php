@@ -13,4 +13,11 @@ if (!file_exists("configuration.php") && is_dir("install/")) {
 }
 
 
+//Start session handler
+//Placed here because we want to have a flexible header formation.
+session_start();
+
+include("includes/core.php");
+
+
 ?>

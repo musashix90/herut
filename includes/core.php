@@ -1,11 +1,9 @@
 
 <?php
 
-//First we get our base information we need
-include("/configuration.php");
 
-//Start session handler
-session_start();
+//First we get our base information we need
+include("./configuration.php");
 
 //Capture errors and warnings
 error_reporting(E_ALL);

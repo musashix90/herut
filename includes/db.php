@@ -12,7 +12,7 @@
 	 * 
 	 */
 	
-class HerData {
+class Database {
 	
 	//Allocate the information
 	var $HOST = DB_HOST;
