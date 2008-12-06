@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD:index.php
 
 //For now I guess we'll leave this here, but we'll put it in a framework once we have a base system done
 
@@ -13,10 +12,4 @@ if (!file_exists("configuration.php") && is_dir("install/")) {
 	}
 }
 
-
-=======
-if (file_exists("install.php")) {
-        header("Location: install.php");
-}
->>>>>>> 345422d698332f53ffe3415cabb16270955b195a:index.php
 ?>
