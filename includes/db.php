@@ -77,4 +77,50 @@ class Database {
 		
 		return $this->Query;
 	}
+	
+	
+	/**
+	 * @Desc Returns affected DB ROWS
+	 *
+	 * @param (QUERY)
+	 * @return Query results
+	 */
+	function rows($query) {
+		$this->Query = $this->query($query);
+		
+		if (!$this->Query) {
+			return;
+		}
+		
+		return $this->Rows;
+	}
+	
+	
+	/**
+	 * @Desc Returns the content of the query in an Array format
+	 *
+	 * @param (QUERY)
+	 * @return Array content
+	 */
+	function dbarray($query) {
+		$this->Query = $this->query($query);
+		if (!$this->Query) return;
+		
+		return mysql_fetch_assoc($this->Query);
+	}
+	
+	/**
+	 * @Desc Close the Database Link and reset variables
+	 *
+	 * @return TRUE/FALSE
+	 */
+	function __destruct() {
+		
+		if (mysql_close($this->Database)) {
+			unset($this);
+			return true;
+		}
+		return;
+	}
+
 }
