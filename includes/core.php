@@ -9,6 +9,12 @@ include("./configuration.php");
 error_reporting(E_ALL);
 
 //Database 
-include("db.php")
+include("db.php");
+
+//Include our everyday use functions
+include("functions.php");
+
+//include our engines
+include("engines.php");
 
 ?>
