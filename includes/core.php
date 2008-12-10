@@ -2,17 +2,18 @@
 
 
 //First we get our base information we need
-include("./default.configuration.php");
+require("./default.configuration.php");
 
 
 //include our engines
-include("engines.php");
+require("engines.php");
 
 //Capture errors and warnings
 error_reporting(E_ALL);
 
 //Database 
-include("db.php");
+require("db.php");
+
 
 //Include our everyday use functions
 include("functions.php");

@@ -12,7 +12,7 @@
 	 * 
 	 */
 	
-class Database {
+class DataBase {
 	
 	//Allocate the information
 	var $HOST = DB_HOST;

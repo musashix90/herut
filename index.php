@@ -5,4 +5,5 @@ include("includes/core.php");
 
 $template = new Template;
 $template->Display();
+
 ?>
