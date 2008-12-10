@@ -6,7 +6,7 @@
 	<head>
 		<title><?php echo SITE_TITLE; ?></title>
 		
-		<BASE HREF="<?php echo SITE_URL; ?>/templates/SimplyClean/">
+		<base href="<?php echo SITE_URL; ?>/templates/SimplyClean/">
 		
 		<link rel="stylesheet" type="text/css" href="styles/layout.css" />
 	</head>
@@ -15,7 +15,7 @@
 	
 	<div id='wrapper'>
 		<div id='Top'>
-			<div id='Logo'><img src='images/logo.gif' alt='Logo'>...Yet another better CMS.</div>
+			<div id='Logo'><img src='images/logo.gif' alt='Logo'> <?php echo SITE_TITLE; ?><br /><sub>...Yet another better CMS</sub></div>
 		</div>
 	</div>
 	
