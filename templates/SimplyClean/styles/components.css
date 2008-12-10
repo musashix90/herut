@@ -22,6 +22,12 @@
 .menu div { font-size: 10px; }
 
 /* Modules */
+.modules {
+	margin-bottom: 2em;
+	border-right: 2px solid #333333;
+	border-bottom: 1px solid #333333;
+
+}
 .modules h3 { 
 	font-size: 12pt; 
 	color: #E3BB31; 

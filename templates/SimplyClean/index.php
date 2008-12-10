@@ -38,6 +38,15 @@
 					<li class='last'><a href='/herut/'>Wtf is OpenSource?</a></li>
 				</ul>
 			</div>
+			
+			<div class='modules'>
+				<h3 style='text-align: center;'>User menu</h3>
+				<ul class='menu'>
+					<li><a href='/herut/index.php'>User CP</a></li>
+					<li><a href='/herut/#'>Messages</a></li>
+					<li><a href='/herut/#'>Administration</a></li>
+				</ul>
+			</div>
 		</div>
 		
 		<div id='Center'>
