@@ -29,7 +29,8 @@ function off($param='') {
 	}*/
 	
 	/*call the template instance */
-	$template = new Template;
-	$template->footer();
+	//$template = new Template;
+	//$template->footer();
+	echo "<p>$param</p>";
 	die();
 }

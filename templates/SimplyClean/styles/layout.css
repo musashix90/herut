@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; }
+
+/* Top CSS & Logo & Search input box if its visible */
+body { background-color: #EAEAEA; }
+
+#Topbg {
+	background: #ECF389;
+	border: 0px solid #E2B823;
+	width: 100%;
+	height:  auto;
+	float: left;
+}
+
+#Top {
+	background: #ECF389;
+	border: 1px solid #E2B823;
+	width: 100%;
+	height:  auto;
+    padding: 0.3em;
+}
+
+#Logo img { 
+	clear: both; vertical-align: top; 
+}
+

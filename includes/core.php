@@ -1,9 +1,12 @@
-
 <?php
 
 
 //First we get our base information we need
-include("./configuration.php");
+include("./default.configuration.php");
+
+
+//include our engines
+include("engines.php");
 
 //Capture errors and warnings
 error_reporting(E_ALL);
@@ -14,7 +17,5 @@ include("db.php");
 //Include our everyday use functions
 include("functions.php");
 
-//include our engines
-include("engines.php");
 
 ?>

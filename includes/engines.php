@@ -31,7 +31,7 @@ class Template {
 		   The following test is to check wether the system is already installed. 
 		   IMPORTANT: remember to delete the install/ directory after installing your Herut.
 		*/
-		if (!file_exists("configuration.php") && is_dir("install/")) {
+		if (!file_exists("default.configuration.php") && is_dir("install/")) {
        	 if (file_exists("install/index.php")) {
                 header("Location: install/index.php");
                 die();
@@ -43,6 +43,20 @@ class Template {
 	//More code coming here
 	}
 	
-	function header() {
+	function Display() {
 		
+
+		//Start session handler
+		//Placed here because we want to have a flexible header formation.
+		session_start();
+		
+		
+		$templatedir = './templates/'.$this->skin.'/index.php';
+		
+		if (!file_exists($templatedir)) off('Error Loading Template');
+		
+		//get the template file.
+		require($templatedir);
 	}
+}
+?>
