@@ -1,25 +1,54 @@
 * { margin: 0; padding: 0; }
 
 /* Top CSS & Logo & Search input box if its visible */
-body { background-color: #EAEAEA; }
+body { background-color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; }
 
-#Topbg {
-	background: #ECF389;
-	border: 0px solid #E2B823;
-	width: 100%;
-	height:  auto;
-	float: left;
-}
 
 #Top {
 	background: #ECF389;
 	border: 1px solid #E2B823;
 	width: 100%;
-	height:  auto;
+	height:  115px;
     padding: 0.3em;
 }
-
+#Logo { padding: 5px 0 0 5px; word-spacing: 2px; }
+#Logo sub { color: #666666; }
 #Logo img { 
-	clear: both; vertical-align: bottom; 
+	vertical-align: bottom;
 }
 
+.search {
+	float: right;
+	clear:both;
+	margin-right: 1em; 
+}
+
+#Left {
+	width: 15%;
+	border-right: 2px solid #333333;
+	border-bottom: 1px solid #333333;
+	float: left;
+}
+
+#Right {
+	width: 15%;
+	border-left: 2px solid #333333;
+	float: right;	padding-left: 2px;
+}
+
+#Center {
+	float: left;
+	width: auto;
+	padding: 1em;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#wrapper { margin-top: 0.2em; border:0px solid; padding:0;}
+
+
+#Footer {
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}

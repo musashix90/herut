@@ -1,0 +1,47 @@
+
+.menu {
+	list-style: none;
+	display: block;
+	font-size: 12px;
+	padding-bottom: 4px;
+	background: #EBEBEB;
+}
+.menu li { 
+	text-align: left; 
+}
+.menu li a {
+	text-decoration: none;
+	padding: 5px;
+	color: #0033FF;display: block;
+}
+.menu li a:hover { font-weight: bold; background: #999999;display:block; text-decoration:underline; padding: 5px;}
+
+.menu .selected { background-color: #999999; }
+
+
+.menu div { font-size: 10px; }
+
+/* Modules */
+.modules h3 { 
+	font-size: 12pt; 
+	color: #E3BB31; 
+	background-color: #333333; 
+	font-size: 10pt; 
+	padding: 2px;
+}
+
+/* Components */
+.component {
+	font-size: 10px;
+	margin-bottom: 1em;
+}
+
+.component p {
+	margin: 1em 0;
+}
+.component .title {
+	font-size: 12px;
+	background-color: #C9D3F8;
+	padding: 5px 0; padding-left: 3px;
+	color: #3A78D3;
+}
