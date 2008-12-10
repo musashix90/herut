@@ -5,8 +5,10 @@
 	
 	<head>
 		<title><?php echo SITE_TITLE; ?></title>
-		<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL; ?>/templates/SimplyClean/styles/layout.css" />
+		
 		<BASE HREF="<?php echo SITE_URL; ?>/templates/SimplyClean/">
+		
+		<link rel="stylesheet" type="text/css" href="styles/layout.css" />
 	</head>
 	<body>
 	<div id='Topbg'></div>
