@@ -1,4 +1,3 @@
-
 <?php
 
 	/**
@@ -32,7 +31,7 @@ class DataBase {
 	 */
 	function __construct() {
 	
-		$Database = @mysql_connect($HOST,$USER,$PASS) or die("Error connecting to the database<br />: ".mysql_error());
+		$this->Database = @mysql_connect($HOST,$USER,$PASS) or die("Error connecting to the database<br />: ".mysql_error());
 		
 		if (!$this->Database) {
 			die("Couldn't connect to the server");
