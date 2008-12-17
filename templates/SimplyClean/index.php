@@ -13,9 +13,8 @@
 	</head>
 	<body>
 
-	<div>
 	<div id='Top'>
-		<div id='Logo'><img src='images/logo.gif' alt='Logo' style='float: left; margin-right: 5px;'> <?php echo SITE_TITLE; ?><br /><sub>...Yet another better CMS</sub></div>
+		<div id='Logo'><img src='images/logo.gif' alt='Logo' style='float: left; padding-right: 5px;'> <?php echo SITE_TITLE; ?><br /><sub>...Yet another better CMS</sub></div>
 	
 		<div class='search'>
 			<form method='GET' action='<?php echo $_SERVER['REQUEST_URI'];?>'>
@@ -23,7 +22,6 @@
 			</form>
 		</div>
 		
-	</div>
 	</div>
 	
 	<div id='wrapper'>

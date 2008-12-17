@@ -1,13 +1,13 @@
 * { margin: 0; padding: 0; }
 
 /* Top CSS & Logo & Search input box if its visible */
-body { background-color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; }
+body { background-color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; overflow: invisible;}
 
 
 #Top {
 	background: #ECF389;
 	border: 1px solid #E2B823;
-	width: 100%;
+	width: auto;
 	height:  100px;
     padding: 0.2em;
 }
@@ -32,7 +32,8 @@ body { background-color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-s
 #Right {
 	width: 15%;
 	border-left: 1px solid #333333;
-	float: right;	padding-left: 2px;
+	float: right;	
+	padding-left: 2px;
 }
 
 #Center {
@@ -42,7 +43,10 @@ body { background-color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-s
 	font-family: "Times New Roman", Times, serif;
 }
 
-#wrapper { margin-top: 0.2em; border:0px solid; padding:0;}
+#wrapper { 
+	margin-top: 0.2em; 
+	width: auto; 
+}
 
 
 #Footer {
