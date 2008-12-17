@@ -22,7 +22,7 @@
 	
 class Template {
 
-	var $skin = DEF_TEM;
+	var $skin = $config["DEF_TEM"];
 	
 	
 	function __construct() {
