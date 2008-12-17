@@ -48,6 +48,10 @@
 		</div>
 		
 		<div id='Center'>
+			<div class='Banner center'>
+				<img src='https://www.google.com/adsense/static/en_US/images/leaderboard.gif' alt='Test Ad'>
+			</div>
+			
 			<div>
 				<p>Welcome to Herut Home</p>
 				<p>Herut is undergoing a lot of construction, please give us your support.</p>
@@ -76,10 +80,10 @@
 				<h3 class='title'>This project</h3>
 				<p>Anyone can join the development of this project, simply contact us at http://forum.gamecraftx.com or irc.gamecraftx.com #dev.lounge </p>
 			</div>
-		</div>
 		
-		<div id='Footer'>
-			Herut 2008, OpenSource. Navid & Mike.
 		</div>
-	</div>
+		</div>
+		<div id='Footer'>
+				Copyright &copy 2008. Herut. All rights reserved. <a href='http://x90.nu.mu/wiki/doku.php/herut' target="_blank">Documents</a>
+		</div>
 	</body>

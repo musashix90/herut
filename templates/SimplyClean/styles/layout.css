@@ -39,19 +39,33 @@ body { background-color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-s
 #Center {
 	float: left;
 	width: auto;
-	padding: 1em;
+	padding: 0.5em 1em;
 	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 1em;
 }
 
 #wrapper { 
 	margin-top: 0.2em; 
-	width: auto; 
+	float:left;
+	margin-left: 0; margin-right:0;
+	width: 100%; 
+	margin-bottom: 8em;
+	border:0px solid;
 }
 
 
 #Footer {
-	clear: both;
+	clear:both;
+	margin: 1em auto; padding: 4px;
+	text-align: center;
+	border: 1px solid #929191;
+	width: 30%;
+	background: #CECECE; 
+	font-family: tahoma; font-size: 10pt;
+}
+
+/* Positioning */
+.center {
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
 }

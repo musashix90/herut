@@ -44,10 +44,16 @@
 
 .component p {
 	margin: 1em 0;
+	padding-left: 3px;
 }
 .component .title {
 	font-size: 12px;
 	background-color: #C9D3F8;
-	padding: 5px 0; padding-left: 3px;
+	padding: 5px 0; padding-left: 5px;
 	color: #3A78D3;
+}
+
+/* Banner */
+.Banner {
+	width: 100%;
 }
