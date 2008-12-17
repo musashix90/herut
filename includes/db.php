@@ -14,10 +14,10 @@
 class DataBase {
 	
 	//Allocate the information
-	var $HOST = DB_HOST;
-	var $USER = DB_USER;
-	var $PASS = DB_PASS;
-	var $DB = DB_DB;
+	var $HOST = $config["DB_HOST"];
+	var $USER = $config["DB_USER"];
+	var $PASS = $config["DB_PASS"];
+	var $DB = $config["DB_DB"];
 	
 	//Internal stuff
 	var $Database;
