@@ -30,7 +30,7 @@ class Template {
 		   The following test is to check wether the system is already installed. 
 		   IMPORTANT: remember to delete the install/ directory after installing your Herut.
 		*/
-		if (!file_exists("default.configuration.php") && is_dir("install/")) {
+		if (!file_exists("configuration.php") && is_dir("install/")) {
 			if (file_exists("install/index.php")) {
 				header("Location: install/index.php");
 				die();

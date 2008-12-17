@@ -2,7 +2,7 @@
 
 
 //First we get our base information we need
-require("./default.configuration.php");
+require("./configuration.php");
 
 global $config;
 foreach ($config as $constant => $value) {
