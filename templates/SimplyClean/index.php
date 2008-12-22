@@ -26,6 +26,7 @@
 	
 	<div id='wrapper'>
 		<div id='Left'>
+			__Modules('Left');
 			<div class='modules'>
 				<h3 style='text-align: center;'>Main Menu</h3>
 				<ul class='menu'>
