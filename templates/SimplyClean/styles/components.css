@@ -23,9 +23,10 @@
 
 /* Modules */
 .modules {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	border-right: 2px solid #333333;
 	border-bottom: 1px solid #333333;
+	border-left: 1px solid #333333;
 
 }
 .modules h3 { 
@@ -35,9 +36,29 @@
 	font-size: 10pt; 
 	padding: 2px;
 }
+/* Modules top */
+.modulestop {
+	list-style: none;
+	display: inline;
+	margin:1em;
+}
+
+.modulestop li {
+	text-align: left;
+	display:inline;
+	padding:0; margin:0;
+}
+.modulestop a {
+	color: #0033FF; font: 12px verdana;
+	text-decoration:none;
+	padding:1px 2px;
+	background: #FFF399;
+}
+.modulestop a:hover { background:#40493F;color:white;}
 
 /* Components */
 .component {
+	background:#fff;
 	font-size: 10px;
 	margin-bottom: 1em;
 }
@@ -45,6 +66,7 @@
 .component p {
 	margin: 1em 0;
 	padding-left: 3px;
+	padding:.5em;
 }
 .component .title {
 	font-size: 12px;

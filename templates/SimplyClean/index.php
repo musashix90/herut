@@ -13,6 +13,7 @@
 	</head>
 	<body>
 
+	<div id='Main'>
 	<div id='Top'>
 		<div id='Logo'><img src='images/logo.gif' alt='Logo' style='float: left; padding-right: 5px;'> <?php echo SITE_TITLE; ?><br /><sub>...Yet another better CMS</sub></div>
 	
@@ -24,9 +25,17 @@
 		
 	</div>
 	
+	<div id='Topnav'>
+	<ul class='modulestop'>
+		<li><a href='/herut/index.php'>Home</a></li>
+		<li><a href='/herut/index.php'>Inbox</a></li>
+		<li><a href='/herut/index.php'>Forums</a></li>
+		<li><a href='/herut/index.php'>FAQ</a></li>
+	</ul>
+	</div>
+	
 	<div id='wrapper'>
 		<div id='Left'>
-			__Modules('Left');
 			<div class='modules'>
 				<h3 style='text-align: center;'>Main Menu</h3>
 				<ul class='menu'>
@@ -48,14 +57,15 @@
 			</div>
 		</div>
 		
-		<div id='Center'>
+		<div id='Center' style='padding: 0.2em 1em;'>
 			<div class='Banner center'>
-				<img src='https://www.google.com/adsense/static/en_US/images/leaderboard.gif' alt='Test Ad'>
+				<!-- <img src='https://www.google.com/adsense/static/en_US/images/leaderboard.gif' alt='Test Ad'> -->
 			</div>
 			
 			<div>
-				<p>Welcome to Herut Home</p>
-				<p>Herut is undergoing a lot of construction, please give us your support.</p>
+				<h3>Welcome to Herut Home</h3>
+				<p>Herut is undergoing a lot of construction,</p>
+				<p>I removed the BG color of this container :( cause it was just too ugly.</p>
 			</div>
 		</div>
 		
@@ -86,5 +96,6 @@
 		</div>
 		<div id='Footer'>
 				Copyright &copy 2008. Herut. All rights reserved. <a href='http://x90.nu.mu/wiki/doku.php/herut' target="_blank">Documents</a>
+		</div>
 		</div>
 	</body>
